@@ -8,9 +8,9 @@ If you want to build any responsive project use it and you'll see how is simple 
 
 ## How it's works
 
-I created some mixins with names to make it easier for you to remember.
+I created some mixins with names to make it easier to remember.
 
-Before, you need import the mixin file in sass file that you will work:
+Before, you need import the mixins in your sass file that you will work:
 
 ```scss
 @import "../../../../assets/scss/mixins/responsive";
@@ -18,7 +18,7 @@ Before, you need import the mixin file in sass file that you will work:
 
 and now you can use them.
 
-For example, if you need some behavior in desktop screens, you just need:
+For example, if you need some behavior in desktop screens, you just need use:
 
 ```scss
 .card {
@@ -28,7 +28,7 @@ For example, if you need some behavior in desktop screens, you just need:
 }
 ```
 
-Or, if you need work with large desktop screens:
+Or, if you need work with behavior in large desktop screens:
 
 ```scss
 .card {
@@ -38,7 +38,7 @@ Or, if you need work with large desktop screens:
 }
 ```
 
-In cases you need use up to tablet size, you just:
+In cases that you need use up to tablet size, you just:
 
 ```scss
 .card {
