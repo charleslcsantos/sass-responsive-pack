@@ -13,7 +13,7 @@ I created some mixins with names to make it easier to remember.
 Before, you need import the mixins in your sass file that you will work:
 
 ```scss
-@import "../../../../assets/scss/mixins/responsive";
+@import "./mixins/responsive";
 ```
 
 and now you can use them.
